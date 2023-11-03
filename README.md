@@ -1,6 +1,15 @@
 # pyswc
 
-Python bindings for the [SWC](https://github.com/swc-project/swc) library. Currently support the exporting the parsed result in JSON format.
+Python bindings for the [SWC](https://github.com/swc-project/swc) library. Currently support exporting the parsed result in JSON format.
+
+## Usage
+
+Install with `pip install pyswc`.
+
+```python
+import pyswc
+print(pyswc.parse("console.log('hello world');"))
+```
 
 ## License
 
